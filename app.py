@@ -64,7 +64,7 @@ if st.button("🚀 Analisis Risiko Churn Pelanggan", use_container_width=True):
     if 'CouponUsed' in input_data: input_data['CouponUsed'] = coupon_used
     if 'OrderCount' in input_data: input_data['OrderCount'] = order_count
     if 'DaySinceLastOrder' in input_data: input_data['DaySinceLastOrder'] = day_since_last_order
-    if 'CashbackAmount' in input_data: input_data['CashbackAmount'] = cashbackamount = cashback
+    if 'CashbackAmount' in input_data: input_data['CashbackAmount'] = cashback_amount
     if 'Customer_Segment' in input_data: input_data['Customer_Segment'] = int(customer_segment[0])
     
     # Mengonversi dictionary menjadi DataFrame Pandas tunggal
